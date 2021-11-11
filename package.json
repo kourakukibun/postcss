@@ -5,7 +5,7 @@
     "compile:css": "postcss src/css/**/[!_]* --base ./src/css/ --dir dest/css/ -w",
     "format:css": "prettier --write dest/**/*.css",
     "watch:css": "onchange dest/**/*.css -- npm run format:css",
-    "server": "browser-sync start --server --files='dest/**/*' --startPath='dest/'"
+    "server": "browser-sync start --server dest --files='dest/**/*' --startPath='/' --open='external'"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
