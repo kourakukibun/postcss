@@ -1,0 +1,39 @@
+@charset 'utf-8';
+
+/* common */
+
+.import {
+  align-items: center;
+  background-color: #efefef;
+  color: rgba(255, 0, 0, 0.7);
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+/* modules */
+
+figure {
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+}
+
+.test {
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.test_inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+.test_inner img {
+      -o-object-fit: cover;
+         object-fit: cover;
+      pointer-events: none;
+    }

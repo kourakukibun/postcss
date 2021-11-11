@@ -1,0 +1,29 @@
+{
+  "license": "UNLICENSED",
+  "scripts": {
+    "all": "npm-run-all -p server compile:css",
+    "compile:css": "postcss src/css/**/[!_]* --base ./src/css/ --dir dest/css/ -w",
+    "server": "browser-sync start --server --files='dest/**/*' --startPath='dest/'"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "browser-sync": "^2.27.7",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.11",
+    "postcss-calc": "^8.0.0",
+    "postcss-cli": "^9.0.1",
+    "postcss-color-function": "^4.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-import-ext-glob": "^2.0.1",
+    "postcss-mixins": "^8.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3",
+    "postcss-sorting": "^7.0.1",
+    "stylelint": "^14.0.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ]
+}

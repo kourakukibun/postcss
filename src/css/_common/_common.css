@@ -1,0 +1,8 @@
+@import '_mixins.css';
+
+.import {
+  @mixin test, #efefef;
+  color: color(#f00 a(70%));
+  font-size: 1.2rem;
+  line-height: calc(30/20);
+}

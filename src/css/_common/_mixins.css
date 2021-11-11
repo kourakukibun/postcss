@@ -1,0 +1,6 @@
+@define-mixin test, $bgcolor: #fff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bgcolor;
+}

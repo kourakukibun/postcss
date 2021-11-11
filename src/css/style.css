@@ -1,0 +1,27 @@
+@charset 'utf-8';
+
+/* common */
+@import-glob './_common/*';
+
+/* modules */
+figure {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  &_inner {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      object-fit: cover;
+      pointer-events: none;
+    }
+  }
+}
