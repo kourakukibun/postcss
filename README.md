@@ -38,7 +38,7 @@ yarn run server
 
 .prettierignore に追記すればOK
 
-## 課題
+## 課題・注意点
 
 納品先で修正することを考えて基本圧縮しないことを前提として
 
