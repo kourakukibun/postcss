@@ -23,11 +23,7 @@ module.exports = () => ({
     'postcss-sorting': {
       'properties-order': 'alphabetical',
     },
-    'stylelint': {},
-    'postcss-sort-media-queries': {
-      // sort: 'desktop-first',
-      // sort: 'mobile-first',
-    },
+    'postcss-sort-media-queries': {},
     'autoprefixer': {
       grid: true,
     },

@@ -24,6 +24,8 @@ figure {
   &_inner {
     display: flex;
     flex-direction: column;
+    margin: 10px 0 0;
+    font-weight: bold;
     @mixin mqsp {
       display: block;
     }

@@ -28,35 +28,36 @@ figure {
 }
 
 .test_inner {
-    display: flex;
-    flex-direction: column;
-  }
-
-.test_inner img {
-      -o-object-fit: cover;
-         object-fit: cover;
-      pointer-events: none;
-    }
-
-.test_box {
-    display: flex;
-  }
-
-@media screen and (max-width: 767px){
-
-.import {
-    font-size: 4.266666666666667vw
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 10px 0 0;
 }
 
-figure img {
-      width: 100%
-  }
-
-.test_inner {
-      display: block;
-  }
+.test_inner img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+}
 
 .test_box {
-      display: block
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .import {
+    font-size: 4.266666666666667vw;
+  }
+
+  figure img {
+    width: 100%;
+  }
+
+  .test_inner {
+    display: block;
+  }
+
+  .test_box {
+    display: block;
   }
 }

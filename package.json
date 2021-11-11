@@ -1,14 +1,17 @@
 {
   "license": "UNLICENSED",
   "scripts": {
-    "all": "npm-run-all -p server compile:css",
+    "all": "npm-run-all -p server compile:css watch:css",
     "compile:css": "postcss src/css/**/[!_]* --base ./src/css/ --dir dest/css/ -w",
+    "format:css": "prettier --write dest/**/*.css",
+    "watch:css": "onchange dest/**/*.css -- npm run format:css",
     "server": "browser-sync start --server --files='dest/**/*' --startPath='dest/'"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "browser-sync": "^2.27.7",
     "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
     "postcss": "^8.3.11",
     "postcss-calc": "^8.0.0",
     "postcss-cli": "^9.0.1",
@@ -21,6 +24,7 @@
     "postcss-simple-vars": "^6.0.3",
     "postcss-sort-media-queries": "^4.1.0",
     "postcss-sorting": "^7.0.1",
+    "prettier": "^2.4.1",
     "stylelint": "^14.0.1"
   },
   "browserslist": [
