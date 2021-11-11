@@ -13,6 +13,7 @@
     "postcss-calc": "^8.0.0",
     "postcss-cli": "^9.0.1",
     "postcss-color-function": "^4.1.0",
+    "postcss-functions": "^4.0.2",
     "postcss-import": "^14.0.2",
     "postcss-import-ext-glob": "^2.0.1",
     "postcss-mixins": "^8.1.0",

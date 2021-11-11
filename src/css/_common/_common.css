@@ -5,4 +5,7 @@
   color: color(#f00 a(70%));
   font-size: 1.2rem;
   line-height: calc(30/20);
+  @mixin mqsp {
+    font-size: calcvw(32);
+  }
 }

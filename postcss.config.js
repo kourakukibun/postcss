@@ -12,12 +12,18 @@ module.exports = () => ({
     'postcss-mixins': {},
     'postcss-color-function': {},
     'postcss-calc': {},
+    'postcss-functions': {
+      functions: {
+        calcvw: (num, width = 750) => {
+          return `${num / width * 100}vw`;
+        },
+      }
+    },
     'postcss-nested': {},
     'postcss-sorting': {
       'properties-order': 'alphabetical',
     },
     'stylelint': {},
-    'stylefmt': {},
     'postcss-sort-media-queries': {
       // sort: 'desktop-first',
       // sort: 'mobile-first',

@@ -1888,6 +1888,13 @@ postcss-color-function@^4.1.0:
     postcss-message-helpers "^2.0.0"
     postcss-value-parser "^3.3.1"
 
+postcss-functions@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-functions/-/postcss-functions-4.0.2.tgz#23a7d100f507890042fbd0305f963554e6d1ce6a"
+  integrity sha512-htDZN6t97uW4GBXquTsz/DVaNVAHtHx5tLCALquVM2u58UwHki+RwHbANKiiI0ImA8T7Iml2MnvLUM7aGtlpqA==
+  dependencies:
+    postcss-value-parser "^4.0.0"
+
 postcss-import-ext-glob@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/postcss-import-ext-glob/-/postcss-import-ext-glob-2.0.1.tgz#9e22f9fc9722f7e7206fde77d594e93f6c57163e"
