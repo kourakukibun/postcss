@@ -16,6 +16,12 @@ module.exports = () => ({
     'postcss-sorting': {
       'properties-order': 'alphabetical',
     },
+    'stylelint': {},
+    'stylefmt': {},
+    'postcss-sort-media-queries': {
+      // sort: 'desktop-first',
+      // sort: 'mobile-first',
+    },
     'autoprefixer': {
       grid: true,
     },

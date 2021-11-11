@@ -8,6 +8,12 @@ figure {
   display: flex;
   justify-content: center;
   background-color: #efefef;
+
+  img {
+    @mixin mqsp {
+      width: 100%;
+    }
+  }
 }
 
 .test {
@@ -18,10 +24,19 @@ figure {
   &_inner {
     display: flex;
     flex-direction: column;
+    @mixin mqsp {
+      display: block;
+    }
 
     img {
       object-fit: cover;
       pointer-events: none;
+    }
+  }
+  &_box {
+    display: flex;
+    @mixin mqsp {
+      display: block;
     }
   }
 }

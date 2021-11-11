@@ -18,6 +18,7 @@
     "postcss-mixins": "^8.1.0",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^6.0.3",
+    "postcss-sort-media-queries": "^4.1.0",
     "postcss-sorting": "^7.0.1",
     "stylelint": "^14.0.1"
   },

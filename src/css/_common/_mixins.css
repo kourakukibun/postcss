@@ -4,3 +4,9 @@
   align-items: center;
   background-color: $bgcolor;
 }
+
+@define-mixin mqsp {
+  @media screen and (max-width: $break-point) {
+    @mixin-content;
+  }
+}
