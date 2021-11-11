@@ -20,6 +20,12 @@ yarn run all
 yarn run compile:css
 ```
 
+## 個別：CSS整形（監視付き）
+
+```
+yarn run watch:css
+```
+
 ## 個別：BrowserSync
 
 ```
